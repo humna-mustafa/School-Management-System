@@ -1,0 +1,5 @@
+STU001|Ali Khan|Rashid Khan|10A~A~12~03001111111~2010-05-02~Male~ali@student.com~Johar Town~2024-04-01~Mr Rashid~03002222222|ACTIVE
+STU002|Ayesha Noor|Imran Noor|10A~A~13~03001111112~2010-08-11~Female~ayesha@student.com~Model Town~2024-04-02~Imran Noor~03002222223|ACTIVE
+STU003|Hamza Ahmed|Nadeem Ahmed|9B~B~7~03001111113~2011-03-15~Male~hamza@student.com~DHA~2024-04-03~Nadeem Ahmed~03002222224|ACTIVE
+STU004|Fatima Zahra|Sajid Iqbal|9B~B~8~03001111114~2011-09-09~Female~fatima@student.com~Wapda Town~2024-04-03~Sajid Iqbal~03002222225|ACTIVE
+STU005|Bilal Hussain|Zafar Hussain|8A~A~5~03001111115~2012-01-19~Male~bilal@student.com~Gulberg~2024-04-04~Zafar Hussain~03002222226|ACTIVE

@@ -1,0 +1,1 @@
+ADM001|Super Admin|admin|admin123|Favorite color?|blue|ADMIN|ACTIVE
