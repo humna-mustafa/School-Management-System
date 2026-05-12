@@ -8,16 +8,16 @@ Data is saved in plain text files inside the `data` folder.
 - Ayesha Eman (FA25-BSE-024)
 
 ## Main features
-- First run setup (school details + first admin account)
+- First run setup (first admin account)
 - Admin login, signup, forgot password (security answer)
-- Dashboard counts (students, teachers, subjects, fees)
-- CRUD panels: Students, Teachers, Subjects, Fees
-- Settings: edit school profile, change password, delete account (with last-admin protection)
+- Dashboard counts (students, teachers, fees)
+- CRUD panels: Students, Teachers, Fees
+
 
 ## Tech
 - Java, OOP
 - JavaFX 
-- File based storage (`school.txt`, `users.txt`, `students.txt`, `teachers.txt`, `subjects.txt`, `fees.txt`)
+- File based storage (`school.txt`, `users.txt`, `students.txt`, `teachers.txt`, `fees.txt`)
 
 ## How to run
 - Open the project in IntelliJ IDEA
