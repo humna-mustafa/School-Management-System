@@ -34,5 +34,3 @@ We built the project in two parts and then integrated into one application.
 ### Ayesha Eman (FA25-BSE-024) - Auth Layer + Fee CRUD + Signup + Navigation
 **GUI (4):** `SignupView` [H], `FeePanel` [H], `AppContext` [E], `Main` [H]
 **Backend (6):** `User` [M], `AuthService` [H], `CrudService` [E], `ThemeUtil` [M], `Constants` [E], `SessionManager` [M]
-
-**How we integrate (one paragraph):** Ayesha's `Main` is the entry point — it creates Humna's `FileManager`, `DataStore` and Ayesha's `AuthService`, `CrudService` instances, then bundles them in Ayesha's `AppContext` record and hands them to Humna's `LoginView`; after a successful `AuthService.login()` call, `SessionManager` (Ayesha) stores the user and a Runnable callback opens the dashboard built in `Main`, where the sidebar swaps between Humna's `StudentPanel`/`TeacherPanel` and Ayesha's `FeePanel`; every panel calls its injected `CrudService` (Ayesha) → `DataStore` (Humna) → `FileManager` (Humna) → `data/*.txt`, so the two halves meet through `AppContext`, `EntityRecord` and the shared utilities (`AlertUtil`, `InputValidator`, `IdGenerator`, `ThemeUtil`, `Constants`).
