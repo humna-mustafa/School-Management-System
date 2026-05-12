@@ -28,9 +28,9 @@ Data is saved in plain text files inside the `data` folder.
 We built the project in two parts and then integrated into one application.
 
 ### Humna Mustafa (FA25-BSE-051)
-**GUI (4):** `LoginView` [H], `ForgotPasswordView` [M], `StudentPanel` [H], `TeacherPanel` [H]
+**GUI (4):** `LoginView` [H], `ForgotPasswordView` [M], `StudentPanel` [H], `TeacherPanel` [H]   
 **Backend (6):** `EntityRecord` [M], `FileManager` [M], `DataStore` [M], `IdGenerator` [M], `InputValidator` [E], `AlertUtil` [E]
 
 ### Ayesha Eman (FA25-BSE-024) 
-**GUI (4):** `SignupView` [H], `FeePanel` [H], `AppContext` [E], `Main` [H]
+**GUI (4):** `SignupView` [H], `FeePanel` [H], `AppContext` [E], `Main` [H]   
 **Backend (6):** `User` [M], `AuthService` [H], `CrudService` [E], `ThemeUtil` [M], `Constants` [E], `SessionManager` [M]
